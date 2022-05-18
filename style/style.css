@@ -1,0 +1,188 @@
+body {
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.hidden {
+    display: none;
+}
+
+#homePage {
+    text-align: center;
+}
+
+#homePage h1 {
+    padding: 200px 0 50px;
+    font-family: cursive;
+    font-size: 60px;
+    color: #ff706a;
+    text-shadow: 1px 1px 26px black;
+}
+
+#usernameInput {
+    font-family: 'cursive';
+    color: white;
+    text-shadow: 1px 1px 10px aqua;
+    display: block;
+    background-color: black;
+    width: 250px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font-size: 24px;
+    transition-duration: 0.50s;
+    font-weight: 300;
+}
+
+#usernameInput:hover {
+    background-color: black
+}
+
+#usernameInput:focus {
+    background-color: whitesmoke;
+    width: 300px;
+    color: black;
+}
+
+.tableInformation {
+    text-align: center;
+    font-size: 15px;
+    border-radius: 16px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+    background: #ff706a;
+    text-shadow: 1px 1px 10px black;
+    transition-duration: 0.25s;
+}
+
+#playBtn,
+#settingsBtn,
+#rulesBtn,
+#language,
+#mainMenu,
+#letsGo,
+.gameOptions,
+#newGameBtn,
+#allWords button {
+    text-align: center;
+    font-size: 35px;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+    color: white;
+    background: #058946;
+    cursor: pointer;
+    text-shadow: 1px 1px 10px black;
+    transition-duration: 0.25s;
+}
+
+#playBtn:hover,
+#settingsBtn:hover,
+#rulesBtn:hover,
+#language:hover,
+#mainMenu:hover,
+#letsGo:hover,
+.gameOptions:hover,
+#newGameBtn:hover,
+#allWords button:hover {
+    background: #ff706a;
+    transform: scale(1.1);
+}
+
+#rulesPage {
+    text-align: center;
+}
+
+#rulesPage h2 {
+    text-align: center;
+    padding: 125px 0 50px;
+    font-family: cursive;
+    font-size: 60px;
+    color: #ff706a;
+    text-shadow: 1px 1px 26px black;
+}
+
+#rulesPage p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    color: white;
+    text-shadow: 1px 1px 26px black;
+}
+
+#gamePage {
+    text-align: center;
+}
+
+#gamePage h2 {
+    text-align: center;
+    padding: 125px 0 50px;
+    font-family: cursive;
+    font-size: 60px;
+    color: #ff706a;
+    text-shadow: 1px 1px 26px black;
+}
+
+#losePage {
+    text-align: center;
+}
+
+#losePage h2 {
+    text-align: center;
+    padding: 125px 0 0;
+    font-family: cursive;
+    font-size: 75px;
+    color: #ff706a;
+    text-shadow: 1px 1px 26px black;
+}
+
+#losePage h4 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 26px black;
+}
+
+#winPage {
+    text-align: center;
+}
+
+#winPage h2 {
+    text-align: center;
+    padding: 125px 0 0;
+    font-family: cursive;
+    font-size: 75px;
+    color: #ff706a;
+    text-shadow: 1px 1px 26px black;
+}
+
+#winPage h4 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 26px black;
+}
+
+
+/* For Game Page */
+
+.gameStructure {
+    height: 45em;
+    grid-template-columns: 1fr 1fr;
+    place-items: center start;
+    display: grid;
+    place-items: center;
+    padding: 0 25%;
+}
+
+#hElementsAndP {
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 26px black;
+}
